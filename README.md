@@ -4,7 +4,7 @@ bitcoinrpc
 Scala library for doing JSON RPC commands to the official Bitcoin-QT application as described here https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_Calls_list . Using dispatch for HTTP communication and argonaut for JSON parsing.
 
 Example on how to use it: 
-
+```bash
 $ sbt console
 [warn] The global sbt directory is now versioned and is located at /Users/jakoblind/.sbt/0.13.
 [warn]   You are seeing this warning because there is global configuration in /Users/jakoblind/.sbt but not in /Users/jakoblind/.sbt/0.13.
@@ -34,5 +34,5 @@ res1: Product with Serializable with scala.util.Either[String,argonaut.Json] = R
 
 scala> addmultisigaddress(List("mzhnUUtEMc4ifokz7r3YY3B7uENnsJQGKb"))
 res2: Product with Serializable with scala.util.Either[String,String] = Right(2NCWv5zSdgmfx1pxAMDhAjY7YpLi1zNHDFn)
-
+```
 
