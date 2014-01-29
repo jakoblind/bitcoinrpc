@@ -3,7 +3,9 @@ bitcoinrpc
 
 Scala library for doing JSON RPC commands to the official Bitcoin-QT application as described here https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_Calls_list . Using dispatch for HTTP communication and argonaut for JSON parsing.
 
-If you find this useful, consider a donation: Bitcoinaddress 1Az3tfNeagTUS24Lb2KAAQz5cHSYaVr7a3
+WARNING: This is a work in progress. Not all API calls are implemented yet. Dont use for production.
+
+My bitcoinaddress: 1Az3tfNeagTUS24Lb2KAAQz5cHSYaVr7a3 
 
 Example on how to use it: 
 ```bash
